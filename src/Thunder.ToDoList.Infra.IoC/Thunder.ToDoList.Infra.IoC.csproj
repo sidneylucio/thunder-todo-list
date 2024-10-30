@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Thunder.ToDoList.Application\Thunder.ToDoList.Application.csproj" />
+    <ProjectReference Include="..\Thunder.ToDoList.Domain\Thunder.ToDoList.Domain.csproj" />
+    <ProjectReference Include="..\Thunder.ToDoList.Infra.CrossCutting\Thunder.ToDoList.Infra.CrossCutting.csproj" />
+    <ProjectReference Include="..\Thunder.ToDoList.Infra.Data\Thunder.ToDoList.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
